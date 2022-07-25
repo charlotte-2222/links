@@ -1,0 +1,88 @@
+<!--
+I played with John Emerson's template of this website - most of the credit goes to him.
+I simply wanted to get all my links in place with more flexibility. Will expand on this further in the future.
+https://github.com/johnggli/linktree
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlotte Childers | Links</title>
+  <!-- Favicon -->
+  <link rel="icon" href="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" type="image/x-icon" />
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Core theme CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Parallax Pixel Background Animation -->
+<section class="animated-background">
+  <div id="stars1"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+</section>
+<!-- End of Parallax Pixel Background Animation -->
+
+<a id="profilePicture" href="#popup">
+  <img src="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" alt="Profile Picture">
+</a>
+
+<div class="overlay" id="popup">
+  <div class="popup">
+    <div class="popup-photo">
+      <a href="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" target="_blank">
+        <img src="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" alt="Profile Picture">
+      </a>
+    </div>
+    <div class="popup-quote">
+      I'm your average girlfoe and cult leader. Good luck with your life.
+    </div>
+    <a class="popup-close" onclick="history.back()">&times;</a>
+  </div>
+</div>
+
+<div id="userName">
+  @charlotte-2222<br>
+  she/her
+</div>
+
+<div id="links">
+  <a class="link" href="https://github.com/charlotte-2222" target="_blank">
+    <i class="fab fa-github">&nbsp;</i>Github
+  </a>
+  <a class="link" href="https://www.linkedin.com/in/charlotte-childers/" target="_blank">
+    <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+  </a>
+  <a class="link" href="https://twitter.com/@Charlotte_cjc" target="_blank">
+    <i class="fab fa-twitter">&nbsp;</i>Twitter
+  </a>
+  <a class="link" href="https://charlotte-2222.github.io/char-site/" target="_blank">
+    <i class="fas fa-bug">&nbsp;</i>Portfolio
+  </a>
+  <a class="link" href="https://charlotte-2222.github.io/" target="_blank">
+    <i class="fas fa-comment-alt">&nbsp;</i>Blog
+  </a>
+  <a class="link" href="https://www.gofundme.com/manage/w6za7x" target="_blank">
+    <i class="fas fa-search-dollar">&nbsp;</i>Fund My Transition
+  </a>
+</div>
+
+<div id="hashtag">
+  #TransRightsAreHumanRights
+</div>
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('ayycharlotte', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#ff38b8',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+</body>
+</html>
